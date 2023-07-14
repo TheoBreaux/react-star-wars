@@ -1,0 +1,27 @@
+h1 {
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin-top: 0;
+  padding: 10px;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.card {
+  background-color: olivedrab;
+  color: yellow;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 10px;
+  width: 200px;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
