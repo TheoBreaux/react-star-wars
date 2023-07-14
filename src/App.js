@@ -21,8 +21,12 @@ const App = () => {
     <div>
       <h1>STAR WARS STARSHIPS</h1>
       <div className="App">
-        {starships.map((starship) => {
-          return <div className="card">{starship.name}</div>;
+        {starships.map((starship, index) => {
+          return (
+            <div className="card" key={index}>
+              {starship.name}
+            </div>
+          );
         })}
       </div>
     </div>
